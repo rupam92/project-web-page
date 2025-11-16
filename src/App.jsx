@@ -7,8 +7,9 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Offers from './pages/offer';
 import About from './pages/about';
-import Login from './pages/login';
+
 import Contact from './pages/contact';
+import Login from './pages/login';
 
 function App() {
   return (
@@ -16,11 +17,11 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/login" element={<Login />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/about" element={<About/>} />
           <Route path="/contact" element={<Contact/>} />
-          <Route path="/offer" element={<Offers />} />
-          <Route path="/" element={<Home />} />
+          <Route path="/offer" element={<Offers/>} />
+          <Route path="/" element={<Home/>} />
         </Routes>
       </BrowserRouter>
       <Footer />
