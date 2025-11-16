@@ -1,3 +1,7 @@
+
+import "./About.css";
+
+
 function About() {
   return (
     <div style={{ padding: "40px", maxWidth: "900px", margin: "auto" }}>
