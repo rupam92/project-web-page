@@ -1,0 +1,104 @@
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: rgb(240, 165, 165);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  top: 0;
+  margin: 5px;
+}
+
+.left h2 {
+  margin-left: 20px;
+}
+
+.tagline {
+padding-left: 40px 30px;
+  margin-right: 60px;
+  font-size: 14px;
+  color: rgb(7, 97, 127);
+}
+
+.right a {
+  margin-right:10px;
+  padding: 0px 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+} */
+
+
+
+
+
+
+
+
+.navbar {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgb(240, 165, 165);
+
+  /* margin: 5px; */
+  flex-wrap: wrap;
+}
+
+.left h2 {
+  margin-left: 20px;
+}
+
+.tagline {
+  /* margin-left: 10px; */
+  font-size: 14px;
+  color: rgb(7, 97, 127);
+}
+
+.right a {
+  margin-right: 10px;
+  padding: 0px 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+
+/* ------------- 📱 MOBILE VIEW CSS ------------- */
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .left h2 {
+    margin-left: 0;
+    font-size: 22px;
+  }
+
+  .tagline {
+    margin-left: 0;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  .right {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .right a {
+    padding: 8px 0;
+    background: white;
+    border-radius: 6px;
+    width: 100%;
+  }
+}

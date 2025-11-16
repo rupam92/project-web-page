@@ -1,0 +1,81 @@
+.contact-container {
+  padding: 40px;
+  max-width: 1100px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.contact-box {
+  background: #fff3cd;
+  padding: 25px;
+  border-radius: 12px;
+  border: 2px solid #ffbf47;
+  box-shadow: 0px 4px 8px rgba(255, 193, 77, 0.3);
+}
+
+.contact-box h2 {
+  margin-bottom: 8px;
+}
+
+.contact-box p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.contact-form {
+  background: #f0f8ff;
+  padding: 25px;
+  border-radius: 12px;
+  border: 2px solid #aaa;
+  box-shadow: 0px 4px 8px rgba(0, 100, 255, 0.2);
+}
+
+.contact-form h2 {
+  margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1.5px solid #aaa;
+  font-size: 16px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background:  #345583;;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background:  #aaa;;
+}
