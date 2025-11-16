@@ -1,4 +1,4 @@
-import "./Offer.css";
+import "./offer.css";
 
 function Offers() {
   return (
